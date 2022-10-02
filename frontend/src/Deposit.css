@@ -1,0 +1,19 @@
+.container{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  
+}
+
+.smallerContainer{
+  width: 170px;
+  height: 100px;
+}
+
+.button{
+    background-color: #244386;
+    color: aliceblue;
+    width: 100px;
+}
