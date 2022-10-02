@@ -3,6 +3,7 @@ import React from 'react'
 import './Login.css'
 import { LockClosedIcon } from '@heroicons/react/20/solid'
 import { Link } from 'react-router-dom'
+import vault from './vault.png'
 
 const Login = () => {
   return (
@@ -11,7 +12,8 @@ const Login = () => {
           <div>
             <img
               className="mx-auto h-12 w-auto"
-              src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+              // src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+              src={vault}
               alt="Your Company"
             />
             <h2 className="mt-6 text-center text-3xl font-bold tracking-tight text-gray-900">

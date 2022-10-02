@@ -1,0 +1,17 @@
+.profileContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.balance{
+    font-size: 30px;
+}
+
+.amount{
+    font-size: 35px;
+}
+
+img{
+    width: 218px;
+}
